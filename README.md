@@ -1,3 +1,3 @@
-# python-project-template
+# My Plot
 
-A hassle-free template for Python-based repository
+Some matplib templates for quick, modern, and consistent plots.

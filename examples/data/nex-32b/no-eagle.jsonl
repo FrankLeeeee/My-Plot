@@ -1,0 +1,142 @@
+{
+    "gsm8k": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 195.69178971007932,
+                    "output_throughput": 799.9058122566574,
+                    "accept_length": 1.0,
+                    "accuracy": 0.913570887035633,
+                    "num_questions": 1319,
+                    "num_valid_predictions": 1319,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "math500": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 407.79430767695885,
+                    "output_throughput": 936.3862928231242,
+                    "accept_length": 1.0,
+                    "accuracy": 0.61,
+                    "num_questions": 500,
+                    "num_valid_predictions": 499,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "mtbench": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 97.23925723799039,
+                    "output_throughput": 870.9342543899324,
+                    "accept_length": 1.0,
+                    "accuracy": null,
+                    "num_questions": 80,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "humaneval": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 89.64149028004613,
+                    "output_throughput": 919.8642251751459,
+                    "accept_length": 1.0,
+                    "accuracy": 0.0,
+                    "num_questions": 164,
+                    "num_valid_predictions": 160,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "livecodebench": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 546.1516584180063,
+                    "output_throughput": 949.5549304055762,
+                    "accept_length": 1.0,
+                    "accuracy": null,
+                    "num_questions": 400,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "financeqa": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 65.87484771001618,
+                    "output_throughput": 795.0227108006947,
+                    "accept_length": 1.0,
+                    "accuracy": null,
+                    "num_questions": 148,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "gpqa": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 358.7186943340348,
+                    "output_throughput": 935.1394429631562,
+                    "accept_length": 1.0,
+                    "accuracy": 0.5267857142857143,
+                    "num_questions": 448,
+                    "num_valid_predictions": 412,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ]
+}

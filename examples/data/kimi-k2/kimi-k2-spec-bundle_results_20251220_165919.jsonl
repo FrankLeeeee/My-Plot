@@ -1,0 +1,772 @@
+{
+    "gsm8k": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 387.7257165730698,
+                    "output_throughput": 337.92445122816076,
+                    "accept_length": 1.0,
+                    "accuracy": 0.9499620924943138,
+                    "num_questions": 1319,
+                    "num_valid_predictions": 1319,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 266.23740594892297,
+                    "output_throughput": 498.355967400969,
+                    "accept_length": 3.271389121751566,
+                    "accuracy": 0.9461713419257013,
+                    "num_questions": 1319,
+                    "num_valid_predictions": 1319,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 1,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 247.78471295698546,
+                    "output_throughput": 538.7660861191819,
+                    "accept_length": 4.120435815920245,
+                    "accuracy": 0.9537528430629265,
+                    "num_questions": 1319,
+                    "num_valid_predictions": 1319,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 3,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 282.2629401180893,
+                    "output_throughput": 476.5166831456105,
+                    "accept_length": 3.5748305647840533,
+                    "accuracy": 0.8999241849886277,
+                    "num_questions": 1319,
+                    "num_valid_predictions": 1319,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 1,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 244.91796213702764,
+                    "output_throughput": 544.16588655688,
+                    "accept_length": 4.655279611582661,
+                    "accuracy": 0.9537528430629265,
+                    "num_questions": 1319,
+                    "num_valid_predictions": 1319,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 4,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 308.7140640320722,
+                    "output_throughput": 459.1757114935756,
+                    "accept_length": 3.4419677544677545,
+                    "accuracy": 0.8726307808946171,
+                    "num_questions": 1319,
+                    "num_valid_predictions": 1319,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "math500": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 814.4196866679704,
+                    "output_throughput": 492.06079685961566,
+                    "accept_length": 1.0,
+                    "accuracy": 0.604,
+                    "num_questions": 500,
+                    "num_valid_predictions": 500,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 464.9050523210317,
+                    "output_throughput": 877.2113745892083,
+                    "accept_length": 3.46806357521281,
+                    "accuracy": 0.588,
+                    "num_questions": 500,
+                    "num_valid_predictions": 500,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 1,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 407.9439713290194,
+                    "output_throughput": 995.8769550545389,
+                    "accept_length": 4.610169876195772,
+                    "accuracy": 0.598,
+                    "num_questions": 500,
+                    "num_valid_predictions": 500,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 3,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 533.703887643991,
+                    "output_throughput": 772.6100737625807,
+                    "accept_length": 3.527844083399639,
+                    "accuracy": 0.558,
+                    "num_questions": 500,
+                    "num_valid_predictions": 499,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 1,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 391.3462541248882,
+                    "output_throughput": 1022.7285831443611,
+                    "accept_length": 5.383128673454291,
+                    "accuracy": 0.608,
+                    "num_questions": 500,
+                    "num_valid_predictions": 500,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 4,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 669.9387364940485,
+                    "output_throughput": 649.083231514055,
+                    "accept_length": 3.1435862587473253,
+                    "accuracy": 0.444,
+                    "num_questions": 500,
+                    "num_valid_predictions": 499,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "mtbench": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 131.67053829901852,
+                    "output_throughput": 430.9240376244664,
+                    "accept_length": 1.0,
+                    "accuracy": null,
+                    "num_questions": 80,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 106.25371730595361,
+                    "output_throughput": 533.8166177911393,
+                    "accept_length": 2.3897198230461343,
+                    "accuracy": null,
+                    "num_questions": 80,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 1,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 107.0575774150202,
+                    "output_throughput": 526.1187611377575,
+                    "accept_length": 2.738876732312181,
+                    "accuracy": null,
+                    "num_questions": 80,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 3,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 108.61100611404981,
+                    "output_throughput": 473.3129895327435,
+                    "accept_length": 2.394141207153502,
+                    "accuracy": null,
+                    "num_questions": 80,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 1,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 117.74873453809414,
+                    "output_throughput": 488.46384825810924,
+                    "accept_length": 2.7821796546219706,
+                    "accuracy": null,
+                    "num_questions": 80,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 4,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 137.2675820980221,
+                    "output_throughput": 451.126180366313,
+                    "accept_length": 2.536454493323503,
+                    "accuracy": null,
+                    "num_questions": 80,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "humaneval": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 137.888291914016,
+                    "output_throughput": 466.0584238730984,
+                    "accept_length": 1.0,
+                    "accuracy": 0.0,
+                    "num_questions": 164,
+                    "num_valid_predictions": 164,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 82.65367072296795,
+                    "output_throughput": 779.7838793636296,
+                    "accept_length": 3.364936827816644,
+                    "accuracy": 0.0,
+                    "num_questions": 164,
+                    "num_valid_predictions": 164,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 1,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 75.88732358510606,
+                    "output_throughput": 868.550857852841,
+                    "accept_length": 4.423030465709301,
+                    "accuracy": 0.0,
+                    "num_questions": 164,
+                    "num_valid_predictions": 164,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 3,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 83.97774775500875,
+                    "output_throughput": 729.1217213710999,
+                    "accept_length": 3.7321711568938194,
+                    "accuracy": 0.0,
+                    "num_questions": 164,
+                    "num_valid_predictions": 164,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 1,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 72.96548568597063,
+                    "output_throughput": 897.9039799990946,
+                    "accept_length": 5.162398550153652,
+                    "accuracy": 0.0,
+                    "num_questions": 164,
+                    "num_valid_predictions": 164,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 4,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 88.70395608607214,
+                    "output_throughput": 669.271164663664,
+                    "accept_length": 3.7044178210408085,
+                    "accuracy": 0.0,
+                    "num_questions": 164,
+                    "num_valid_predictions": 164,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "livecodebench": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 858.9295010219794,
+                    "output_throughput": 500.12137141510016,
+                    "accept_length": 1.0,
+                    "accuracy": null,
+                    "num_questions": 400,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 504.13404711091425,
+                    "output_throughput": 841.5023790421864,
+                    "accept_length": 3.162685632492396,
+                    "accuracy": null,
+                    "num_questions": 400,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 1,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 486.20119614794385,
+                    "output_throughput": 904.3910288246204,
+                    "accept_length": 3.943605886942718,
+                    "accuracy": null,
+                    "num_questions": 400,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 3,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 637.5382476239465,
+                    "output_throughput": 716.7319007181034,
+                    "accept_length": 3.1374681580049573,
+                    "accuracy": null,
+                    "num_questions": 400,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 1,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 486.64401952002663,
+                    "output_throughput": 896.7006322822839,
+                    "accept_length": 4.400262176061309,
+                    "accuracy": null,
+                    "num_questions": 400,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 4,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 731.8628918019822,
+                    "output_throughput": 650.4333056536461,
+                    "accept_length": 3.0780193205478037,
+                    "accuracy": null,
+                    "num_questions": 400,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "financeqa": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 109.2937425620621,
+                    "output_throughput": 433.44658979995484,
+                    "accept_length": 1.0,
+                    "accuracy": null,
+                    "num_questions": 148,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 71.41108604799956,
+                    "output_throughput": 647.3644717982133,
+                    "accept_length": 2.9848269628099175,
+                    "accuracy": null,
+                    "num_questions": 148,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 1,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 71.64420925499871,
+                    "output_throughput": 660.0254297132984,
+                    "accept_length": 3.594056395834917,
+                    "accuracy": null,
+                    "num_questions": 148,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 3,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 84.26411335496232,
+                    "output_throughput": 523.0340443308603,
+                    "accept_length": 2.8796471741261027,
+                    "accuracy": null,
+                    "num_questions": 148,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 1,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 73.46372225205414,
+                    "output_throughput": 630.5425124127137,
+                    "accept_length": 3.944647875329984,
+                    "accuracy": null,
+                    "num_questions": 148,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 4,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 132.08435575908516,
+                    "output_throughput": 389.47080223360666,
+                    "accept_length": 2.5096594789735582,
+                    "accuracy": null,
+                    "num_questions": 148,
+                    "num_valid_predictions": 0,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ],
+    "gpqa": [
+        {
+            "batch_size": 8,
+            "steps": 0,
+            "topk": 0,
+            "num_draft_tokens": 0,
+            "metrics": [
+                {
+                    "latency": 1183.8176193350228,
+                    "output_throughput": 505.3742994094499,
+                    "accept_length": 1.0,
+                    "accuracy": 0.546875,
+                    "num_questions": 448,
+                    "num_valid_predictions": 336,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 3,
+            "topk": 1,
+            "num_draft_tokens": 4,
+            "metrics": [
+                {
+                    "latency": 759.8344694370171,
+                    "output_throughput": 783.436424568974,
+                    "accept_length": 2.904452196823693,
+                    "accuracy": 0.5290178571428571,
+                    "num_questions": 448,
+                    "num_valid_predictions": 327,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 1,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 738.3305378139485,
+                    "output_throughput": 811.3642458480507,
+                    "accept_length": 3.4622853609057755,
+                    "accuracy": 0.5178571428571429,
+                    "num_questions": 448,
+                    "num_valid_predictions": 311,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 5,
+            "topk": 3,
+            "num_draft_tokens": 6,
+            "metrics": [
+                {
+                    "latency": 853.141541072051,
+                    "output_throughput": 699.8111934038128,
+                    "accept_length": 3.0198274205132876,
+                    "accuracy": 0.3169642857142857,
+                    "num_questions": 448,
+                    "num_valid_predictions": 205,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 1,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 779.5968520720489,
+                    "output_throughput": 770.4892578818251,
+                    "accept_length": 3.6995331477421103,
+                    "accuracy": 0.5379464285714286,
+                    "num_questions": 448,
+                    "num_valid_predictions": 329,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        },
+        {
+            "batch_size": 8,
+            "steps": 7,
+            "topk": 4,
+            "num_draft_tokens": 8,
+            "metrics": [
+                {
+                    "latency": 1003.2479355880059,
+                    "output_throughput": 596.3162033813331,
+                    "accept_length": 2.7901899604967983,
+                    "accuracy": 0.20535714285714285,
+                    "num_questions": 448,
+                    "num_valid_predictions": 154,
+                    "categorical_performance": null
+                }
+            ],
+            "num_samples": null
+        }
+    ]
+}
